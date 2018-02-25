@@ -1,6 +1,5 @@
 (ns project-euler-clojure.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn -main
+  []
+  (println (str "problem 1: " (problem-1 1000))))
